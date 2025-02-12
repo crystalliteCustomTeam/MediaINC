@@ -6789,6 +6789,7 @@ a.text-theme:hover,
       flex-wrap: wrap;
   padding: 0;
   max-width: 220px;
+  display: none !important;
 }
 
 .side-instagram li {
@@ -15883,8 +15884,8 @@ li.trackback {
   }
 }
 
-/*------------------- 4.00. Portfolio -------------------*/
-/* Portfolio 1 ---------------------------------- */
+/*------------------- 4.00.  Brands -------------------*/
+/*  Brands 1 ---------------------------------- */
 .portfolio-card {
   position: relative;
   overflow: hidden;
@@ -15972,7 +15973,7 @@ li.trackback {
   opacity: 1;
 }
 
-/* Portfolio 2 ---------------------------------- */
+/*  Brands 2 ---------------------------------- */
 .portfolio-box {
   position: relative;
   border-radius: 10px;
@@ -15989,7 +15990,7 @@ li.trackback {
   width: 100%;
 }
 
-/* Portfolio Details Area ---------------------------------- */
+/*  Brands Details Area ---------------------------------- */
 .portfolio-deatils-area .page-thumb img {
   /* Medium Large devices */
   /* Large devices */
@@ -16011,7 +16012,7 @@ li.trackback {
   min-height: auto;
 }
 
-/* Portfolio 4 ---------------------------------- */
+/*  Brands 4 ---------------------------------- */
 .portfolio-card-4 {
   border-radius: 20px;
   overflow: hidden;
@@ -16149,7 +16150,7 @@ li.trackback {
   }
 }
 
-/* Portfolio 2 ---------------------------------- */
+/*  Brands 2 ---------------------------------- */
 .portfolio-box {
   position: relative;
   border-radius: 10px;
@@ -16232,7 +16233,7 @@ li.trackback {
   opacity: 1;
 }
 
-/* Portfolio 2 End ---------------------------------- */
+/*  Brands 2 End ---------------------------------- */
 /*------------------- 4.00. Marquee -------------------*/
 /* Marquee 1---------------------------------- */
 .marquee-area {
@@ -19328,7 +19329,7 @@ li.trackback {
 }
 
 /* =================== Common Tabs Css End ======================= */
-/* Portfolio Css Start */
+/*  Brands Css Start */
 .homeC-portfolio__left {
   width: 61%;
 }
@@ -19376,26 +19377,24 @@ li.trackback {
 }
 
 .homeC-portfolio__right {
-  width: 50%;
-  padding: 60px 0;
+  
 }
 
 @media (max-width: 1299px) {
   .homeC-portfolio__right {
-    width: 60%;
+    
   }
 }
 
 @media (max-width: 991px) {
   .homeC-portfolio__right {
-    width: 70%;
+    
   }
 }
 
 @media (max-width: 767px) {
   .homeC-portfolio__right {
-    width: 100%;
-    padding: 0;
+    
   }
 }
 
@@ -19411,7 +19410,7 @@ li.trackback {
   }
 }
 
-/* Portfolio Css End */
+/*  Brands Css End */
 /* ============== Home Current About Css Start ======================== */
 .homeC-about__bg {
   width: 100vw;
